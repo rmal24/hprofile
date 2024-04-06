@@ -1,5 +1,5 @@
 name: Sample Actions
-on: workflow_dispatch
+on: [push, workflow_dispatch]
 env:
   AWS_REGION: eu-west-2
   ECR_REPOSITORY: actionsapp
